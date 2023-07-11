@@ -10,7 +10,7 @@ nav {
     gap: 100px;
     justify-content: space-around;
     align-items: center;
-    height: 800px;
+    height: 100vh;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -19,7 +19,6 @@ nav {
     font-size: 80px;
     font-weight: 800px;
     font-style: normal;
-    line-height: normal;
 }
 
 .nav-tittle {
@@ -32,13 +31,11 @@ nav {
     font-size: 18px;
     font-style: normal;
     font-weight: 400px;
-    line-height: 30px;
     padding: 32px 0;
 }
 
-.img {
-    height: 750px;
-    padding-top: 50px;
+.nav-img {
+    padding-top: 168px;
     padding-right: 240px;
 }
 
@@ -47,6 +44,68 @@ nav {
     border-radius: 8px;
     padding: 20px 40px;
     list-style: none;
+}
+
+/* main section */
+
+/* pink flower section */
+
+.pink-flower-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    padding: 0 240px;
+}
+
+.first-img {
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 110px 76px 0;
+}
+
+.second-img {
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 117px 47px 51px;
+    
+}
+
+.third-img {
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 67px 76px 0;
+
+}
+
+.pink-img-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #272727;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700px;
+    text-decoration-line: underline;
+    padding: 30px 360px;
+}
 
 
+.main-tittle {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800px;
+    padding: 180px 0 24px;
+}
+
+.main-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    padding-bottom: 50px;
 }
