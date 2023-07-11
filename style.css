@@ -123,6 +123,45 @@ nav {
     gap: 100px;
 }
 
+/* desgin includes */
+
+.design-includs {
+    background-image: url('design\ includes.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.design-tittle {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800px;
+    padding: 70px;
+
+}
+
+.design-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+
+}
+
+.main-design {
+    display: flex;
+}
+
+/* flowers cinematic  */
+
+.flowers-video {
+    text-align: center;
+    padding-bottom: 130px;
+}
+
 /* sign up section */
 
 .sign-up-container {
@@ -174,4 +213,37 @@ span {
     border-radius: 8px;
     background: #FFF;
     padding: 23px 513px 23px 23px;
+}
+
+.footer-section {
+    background: #111010;
+    padding-bottom: 130px;
+}
+
+.footer-tittle {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800px;
+    padding: 180px 0 24px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    padding-bottom: 50px;
+}
+
+small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    padding-left: 775px;
+
 }
