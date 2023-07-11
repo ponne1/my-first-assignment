@@ -47,7 +47,7 @@ nav {
     color: white;
 }
 
-/* main section */
+/* main flowers shop section */
 
 /* pink flower section */
 
@@ -134,9 +134,44 @@ nav {
     padding: 100px 429px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05)
-    
-    
 }
-.sign-up-img{
+
+.sign-up-img {
     padding-top: 32px;
+}
+
+span {
+    color: #E55473;
+}
+
+/* social media section */
+
+.social-media-img {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-left: 240px;
+}
+
+.details-section-container {
+    background-image: url('Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 130px 240px;
+    border-radius: 8px;
+}
+
+.email-section {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 16px;
+    padding-left: 287px;
+    padding-bottom: 200px;
+}
+
+.email-text-area {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 23px 513px 23px 23px;
 }
