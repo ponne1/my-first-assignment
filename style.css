@@ -44,6 +44,7 @@ nav {
     border-radius: 8px;
     padding: 20px 40px;
     list-style: none;
+    color: white;
 }
 
 /* main section */
@@ -68,7 +69,7 @@ nav {
     background: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 117px 47px 51px;
-    
+
 }
 
 .third-img {
@@ -108,4 +109,34 @@ nav {
     font-style: normal;
     font-weight: 400px;
     padding-bottom: 50px;
+}
+
+.support-delivery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 130px 240px;
+    padding: 86px 175px;
+    gap: 100px;
+}
+
+/* sign up section */
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 186px;
+    align-items: center;
+    text-align: center;
+    padding: 100px 429px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05)
+    
+    
+}
+.sign-up-img{
+    padding-top: 32px;
 }
